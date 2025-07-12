@@ -1,9 +1,10 @@
 package io.github.wimdeblauwe.htmx.spring.boot.mvc;
 
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.lang.Nullable;
 
 import static io.github.wimdeblauwe.htmx.spring.boot.mvc.HtmxRequestHeader.*;
+
+import org.jspecify.annotations.Nullable;
 
 /**
  * This class can be used as a controller method argument to access

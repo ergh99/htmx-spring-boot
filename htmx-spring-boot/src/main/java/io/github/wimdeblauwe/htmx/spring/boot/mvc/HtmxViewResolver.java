@@ -1,8 +1,9 @@
 package io.github.wimdeblauwe.htmx.spring.boot.mvc;
 
 import jakarta.servlet.http.HttpServletResponse;
+
+import org.jspecify.annotations.Nullable;
 import org.springframework.core.Ordered;
-import org.springframework.lang.Nullable;
 import org.springframework.web.context.support.WebApplicationObjectSupport;
 import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.ViewResolver;

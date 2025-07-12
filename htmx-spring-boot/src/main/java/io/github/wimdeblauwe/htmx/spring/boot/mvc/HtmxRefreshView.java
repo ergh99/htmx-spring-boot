@@ -3,7 +3,6 @@ package io.github.wimdeblauwe.htmx.spring.boot.mvc;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.SmartView;
-import org.springframework.web.servlet.View;
 
 import java.util.Map;
 
@@ -13,7 +12,7 @@ import java.util.Map;
  * @see <a href="https://htmx.org/reference/#response_header">HX-Refresh Response Header</a>
  * @since 3.6.0
  */
-public class HtmxRefreshView implements View, SmartView {
+public class HtmxRefreshView implements SmartView {
 
     @Override
     public boolean isRedirectView() {
